@@ -14,7 +14,7 @@ During this project, I learned:
 - Efficiently converting numbers to different bases (decimal, hexadecimal).
 - Manipulating and printing **memory addresses (pointers)**.
 - Structuring a C project with **multiple source files and a Makefile**.
-- 
+
 ## Features
 
 The `ft_printf` function supports the following format specifiers:
