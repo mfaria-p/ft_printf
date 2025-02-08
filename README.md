@@ -4,6 +4,17 @@
 
 `ft_printf` is a custom implementation of the standard C library function `printf`. This project aims to replicate the functionality of `printf` by handling various format specifiers and printing formatted output to the standard output. The project is implemented in C and demonstrates the use of __variadic functions__ to handle a variable number of arguments.
 
+## What I Learned
+
+During this project, I learned:
+
+- How to implement **variadic functions** using `stdarg.h`.
+- The inner workings of the **printf function** and how format specifiers are processed.
+- How to handle **different data types** dynamically.
+- Efficiently converting numbers to different bases (decimal, hexadecimal).
+- Manipulating and printing **memory addresses (pointers)**.
+- Structuring a C project with **multiple source files and a Makefile**.
+- 
 ## Features
 
 The `ft_printf` function supports the following format specifiers:
@@ -53,14 +64,4 @@ int main() {
 }
 ```
 
-## What I Learned
-
-During this project, I learned:
-
-- How to implement **variadic functions** using `stdarg.h`.
-- The inner workings of the **printf function** and how format specifiers are processed.
-- How to handle **different data types** dynamically.
-- Efficiently converting numbers to different bases (decimal, hexadecimal).
-- Manipulating and printing **memory addresses (pointers)**.
-- Structuring a C project with **multiple source files and a Makefile**.
 
